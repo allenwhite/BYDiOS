@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwipeableContentViewController.h"
 
-@interface SwipeableViewController : UIPageViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
+@interface SwipeableViewController : UIViewController <UIPageViewControllerDataSource>
 
 @property NSString *whichTest;
 @property NSArray *contentStrings;
+@property (strong, nonatomic) UIPageViewController *pageViewController;
 
 
 @end

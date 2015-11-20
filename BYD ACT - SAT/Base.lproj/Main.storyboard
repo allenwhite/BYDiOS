@@ -166,7 +166,7 @@
                                     <constraint firstAttribute="height" constant="50" id="xcJ-yw-48Y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lct-Ai-fr1">
@@ -238,7 +238,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="ABOUT THE TEST"/>
                                 <connections>
-                                    <segue destination="lWi-Cc-cue" kind="show" identifier="aboutTheTestTapped" id="Gou-m5-XsD"/>
+                                    <segue destination="ASy-F3-6OI" kind="show" identifier="aboutTheTestTapped" id="bbt-nD-YH8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dod-X8-4hj">
@@ -251,7 +251,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="WHERE TO GO FOR HELP"/>
                                 <connections>
-                                    <segue destination="lWi-Cc-cue" kind="show" identifier="whereToGoForHelpTapped" id="g3i-Gu-52B"/>
+                                    <segue destination="ASy-F3-6OI" kind="show" identifier="whereToGoForHelpTapped" id="OLp-AW-TEs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqb-cQ-foq">
@@ -264,7 +264,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="TIPS TO IMPROVE SCORE"/>
                                 <connections>
-                                    <segue destination="lWi-Cc-cue" kind="show" identifier="tipeToImproveScoreTapped" id="XyB-zw-gp1"/>
+                                    <segue destination="ASy-F3-6OI" kind="show" identifier="tipsToImproveScoreTapped" id="NgQ-d1-4dF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -288,12 +288,31 @@
             <point key="canvasLocation" x="1805" y="400"/>
         </scene>
         <!--Swipeable View Controller-->
+        <scene sceneID="1QC-HZ-GQP">
+            <objects>
+                <viewController storyboardIdentifier="SwipeableViewController" id="ASy-F3-6OI" customClass="SwipeableViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PTB-cO-WaI"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Hd-PN-0TY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ts8-ON-8Cz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CiN-6B-wKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2502" y="400"/>
+        </scene>
+        <!--Page View Controller-->
         <scene sceneID="h9s-qr-8be">
             <objects>
-                <pageViewController storyboardIdentifier="SwipeableViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="lWi-Cc-cue" customClass="SwipeableViewController" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="lWi-Cc-cue" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iIO-rL-Dvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2504" y="400"/>
+            <point key="canvasLocation" x="2502" y="-522"/>
         </scene>
         <!--Swipeable Content View Controller-->
         <scene sceneID="nLw-73-G48">
@@ -362,7 +381,7 @@
         <image name="be_ya_dreams" width="263" height="190"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XyB-zw-gp1"/>
+        <segue reference="bbt-nD-YH8"/>
         <segue reference="aav-Kz-fnR"/>
     </inferredMetricsTieBreakers>
 </document>
