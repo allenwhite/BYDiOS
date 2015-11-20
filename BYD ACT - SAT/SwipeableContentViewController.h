@@ -11,6 +11,8 @@
 @interface SwipeableContentViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextView *contentTextView;
+
 @property NSUInteger pageIndex;
+@property NSString *contentString;
 
 @end
