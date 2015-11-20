@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FCB509E1BFEE07900D27558 /* SwipeableContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */; };
+		9FEF2B331BFA3E52002BE128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B321BFA3E52002BE128 /* main.m */; };
+		9FEF2B361BFA3E52002BE128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B351BFA3E52002BE128 /* AppDelegate.m */; };
+		9FEF2B3C1BFA3E52002BE128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2B3A1BFA3E52002BE128 /* Main.storyboard */; };
+		9FEF2B3E1BFA3E52002BE128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2B3D1BFA3E52002BE128 /* Assets.xcassets */; };
+		9FEF2B411BFA3E52002BE128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2B3F1BFA3E52002BE128 /* LaunchScreen.storyboard */; };
+		9FEF2B4C1BFA3E53002BE128 /* BYD_ACT___SATTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B4B1BFA3E53002BE128 /* BYD_ACT___SATTests.m */; };
+		9FEF2B571BFA3E53002BE128 /* BYD_ACT___SATUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B561BFA3E53002BE128 /* BYD_ACT___SATUITests.m */; };
+		9FEF2B661BFA4135002BE128 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B651BFA4135002BE128 /* LoginViewController.m */; };
+		9FEF2B691BFA4158002BE128 /* WhichTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B681BFA4158002BE128 /* WhichTestViewController.m */; };
+		9FEF2B6C1BFA417A002BE128 /* TestOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B6B1BFA417A002BE128 /* TestOptionsViewController.m */; };
+		9FEF2B6F1BFA41A6002BE128 /* SwipeableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B6E1BFA41A6002BE128 /* SwipeableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FEF2B481BFA3E53002BE128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FEF2B261BFA3E52002BE128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FEF2B2D1BFA3E52002BE128;
+			remoteInfo = "BYD ACT - SAT";
+		};
+		9FEF2B531BFA3E53002BE128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FEF2B261BFA3E52002BE128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FEF2B2D1BFA3E52002BE128;
+			remoteInfo = "BYD ACT - SAT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FCB509C1BFEE07900D27558 /* SwipeableContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableContentViewController.h; sourceTree = "<group>"; };
+		9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableContentViewController.m; sourceTree = "<group>"; };
+		9FEF2B2E1BFA3E52002BE128 /* BYD ACT - SAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BYD ACT - SAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEF2B321BFA3E52002BE128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FEF2B341BFA3E52002BE128 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FEF2B351BFA3E52002BE128 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FEF2B3B1BFA3E52002BE128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FEF2B3D1BFA3E52002BE128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FEF2B401BFA3E52002BE128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FEF2B421BFA3E52002BE128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEF2B471BFA3E53002BE128 /* BYD ACT - SATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BYD ACT - SATTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEF2B4B1BFA3E53002BE128 /* BYD_ACT___SATTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BYD_ACT___SATTests.m"; sourceTree = "<group>"; };
+		9FEF2B4D1BFA3E53002BE128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEF2B521BFA3E53002BE128 /* BYD ACT - SATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BYD ACT - SATUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEF2B561BFA3E53002BE128 /* BYD_ACT___SATUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BYD_ACT___SATUITests.m"; sourceTree = "<group>"; };
+		9FEF2B581BFA3E53002BE128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEF2B641BFA4135002BE128 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9FEF2B651BFA4135002BE128 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9FEF2B671BFA4158002BE128 /* WhichTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhichTestViewController.h; sourceTree = "<group>"; };
+		9FEF2B681BFA4158002BE128 /* WhichTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhichTestViewController.m; sourceTree = "<group>"; };
+		9FEF2B6A1BFA417A002BE128 /* TestOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOptionsViewController.h; sourceTree = "<group>"; };
+		9FEF2B6B1BFA417A002BE128 /* TestOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOptionsViewController.m; sourceTree = "<group>"; };
+		9FEF2B6D1BFA41A6002BE128 /* SwipeableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableViewController.h; sourceTree = "<group>"; };
+		9FEF2B6E1BFA41A6002BE128 /* SwipeableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FEF2B2B1BFA3E52002BE128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF2B441BFA3E53002BE128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF2B4F1BFA3E53002BE128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FEF2B251BFA3E52002BE128 = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B301BFA3E52002BE128 /* BYD ACT - SAT */,
+				9FEF2B4A1BFA3E53002BE128 /* BYD ACT - SATTests */,
+				9FEF2B551BFA3E53002BE128 /* BYD ACT - SATUITests */,
+				9FEF2B2F1BFA3E52002BE128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FEF2B2F1BFA3E52002BE128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B2E1BFA3E52002BE128 /* BYD ACT - SAT.app */,
+				9FEF2B471BFA3E53002BE128 /* BYD ACT - SATTests.xctest */,
+				9FEF2B521BFA3E53002BE128 /* BYD ACT - SATUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FEF2B301BFA3E52002BE128 /* BYD ACT - SAT */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B341BFA3E52002BE128 /* AppDelegate.h */,
+				9FEF2B351BFA3E52002BE128 /* AppDelegate.m */,
+				9FEF2B701BFA41AD002BE128 /* Controllers */,
+				9FEF2B711BFA41B7002BE128 /* Views */,
+				9FEF2B421BFA3E52002BE128 /* Info.plist */,
+				9FEF2B311BFA3E52002BE128 /* Supporting Files */,
+			);
+			path = "BYD ACT - SAT";
+			sourceTree = "<group>";
+		};
+		9FEF2B311BFA3E52002BE128 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B321BFA3E52002BE128 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FEF2B4A1BFA3E53002BE128 /* BYD ACT - SATTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B4B1BFA3E53002BE128 /* BYD_ACT___SATTests.m */,
+				9FEF2B4D1BFA3E53002BE128 /* Info.plist */,
+			);
+			path = "BYD ACT - SATTests";
+			sourceTree = "<group>";
+		};
+		9FEF2B551BFA3E53002BE128 /* BYD ACT - SATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B561BFA3E53002BE128 /* BYD_ACT___SATUITests.m */,
+				9FEF2B581BFA3E53002BE128 /* Info.plist */,
+			);
+			path = "BYD ACT - SATUITests";
+			sourceTree = "<group>";
+		};
+		9FEF2B701BFA41AD002BE128 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B641BFA4135002BE128 /* LoginViewController.h */,
+				9FEF2B651BFA4135002BE128 /* LoginViewController.m */,
+				9FEF2B671BFA4158002BE128 /* WhichTestViewController.h */,
+				9FEF2B681BFA4158002BE128 /* WhichTestViewController.m */,
+				9FEF2B6A1BFA417A002BE128 /* TestOptionsViewController.h */,
+				9FEF2B6B1BFA417A002BE128 /* TestOptionsViewController.m */,
+				9FEF2B6D1BFA41A6002BE128 /* SwipeableViewController.h */,
+				9FEF2B6E1BFA41A6002BE128 /* SwipeableViewController.m */,
+				9FCB509C1BFEE07900D27558 /* SwipeableContentViewController.h */,
+				9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9FEF2B711BFA41B7002BE128 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF2B3A1BFA3E52002BE128 /* Main.storyboard */,
+				9FEF2B3D1BFA3E52002BE128 /* Assets.xcassets */,
+				9FEF2B3F1BFA3E52002BE128 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FEF2B2D1BFA3E52002BE128 /* BYD ACT - SAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEF2B5B1BFA3E53002BE128 /* Build configuration list for PBXNativeTarget "BYD ACT - SAT" */;
+			buildPhases = (
+				9FEF2B2A1BFA3E52002BE128 /* Sources */,
+				9FEF2B2B1BFA3E52002BE128 /* Frameworks */,
+				9FEF2B2C1BFA3E52002BE128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BYD ACT - SAT";
+			productName = "BYD ACT - SAT";
+			productReference = 9FEF2B2E1BFA3E52002BE128 /* BYD ACT - SAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FEF2B461BFA3E53002BE128 /* BYD ACT - SATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEF2B5E1BFA3E53002BE128 /* Build configuration list for PBXNativeTarget "BYD ACT - SATTests" */;
+			buildPhases = (
+				9FEF2B431BFA3E53002BE128 /* Sources */,
+				9FEF2B441BFA3E53002BE128 /* Frameworks */,
+				9FEF2B451BFA3E53002BE128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FEF2B491BFA3E53002BE128 /* PBXTargetDependency */,
+			);
+			name = "BYD ACT - SATTests";
+			productName = "BYD ACT - SATTests";
+			productReference = 9FEF2B471BFA3E53002BE128 /* BYD ACT - SATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FEF2B511BFA3E53002BE128 /* BYD ACT - SATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEF2B611BFA3E53002BE128 /* Build configuration list for PBXNativeTarget "BYD ACT - SATUITests" */;
+			buildPhases = (
+				9FEF2B4E1BFA3E53002BE128 /* Sources */,
+				9FEF2B4F1BFA3E53002BE128 /* Frameworks */,
+				9FEF2B501BFA3E53002BE128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FEF2B541BFA3E53002BE128 /* PBXTargetDependency */,
+			);
+			name = "BYD ACT - SATUITests";
+			productName = "BYD ACT - SATUITests";
+			productReference = 9FEF2B521BFA3E53002BE128 /* BYD ACT - SATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FEF2B261BFA3E52002BE128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Be Your Dreams";
+				TargetAttributes = {
+					9FEF2B2D1BFA3E52002BE128 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9FEF2B461BFA3E53002BE128 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9FEF2B2D1BFA3E52002BE128;
+					};
+					9FEF2B511BFA3E53002BE128 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9FEF2B2D1BFA3E52002BE128;
+					};
+				};
+			};
+			buildConfigurationList = 9FEF2B291BFA3E52002BE128 /* Build configuration list for PBXProject "BYD ACT - SAT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FEF2B251BFA3E52002BE128;
+			productRefGroup = 9FEF2B2F1BFA3E52002BE128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FEF2B2D1BFA3E52002BE128 /* BYD ACT - SAT */,
+				9FEF2B461BFA3E53002BE128 /* BYD ACT - SATTests */,
+				9FEF2B511BFA3E53002BE128 /* BYD ACT - SATUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FEF2B2C1BFA3E52002BE128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEF2B411BFA3E52002BE128 /* LaunchScreen.storyboard in Resources */,
+				9FEF2B3E1BFA3E52002BE128 /* Assets.xcassets in Resources */,
+				9FEF2B3C1BFA3E52002BE128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF2B451BFA3E53002BE128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF2B501BFA3E53002BE128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FEF2B2A1BFA3E52002BE128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEF2B361BFA3E52002BE128 /* AppDelegate.m in Sources */,
+				9FEF2B331BFA3E52002BE128 /* main.m in Sources */,
+				9FEF2B691BFA4158002BE128 /* WhichTestViewController.m in Sources */,
+				9FEF2B6C1BFA417A002BE128 /* TestOptionsViewController.m in Sources */,
+				9FCB509E1BFEE07900D27558 /* SwipeableContentViewController.m in Sources */,
+				9FEF2B661BFA4135002BE128 /* LoginViewController.m in Sources */,
+				9FEF2B6F1BFA41A6002BE128 /* SwipeableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF2B431BFA3E53002BE128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEF2B4C1BFA3E53002BE128 /* BYD_ACT___SATTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEF2B4E1BFA3E53002BE128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEF2B571BFA3E53002BE128 /* BYD_ACT___SATUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FEF2B491BFA3E53002BE128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FEF2B2D1BFA3E52002BE128 /* BYD ACT - SAT */;
+			targetProxy = 9FEF2B481BFA3E53002BE128 /* PBXContainerItemProxy */;
+		};
+		9FEF2B541BFA3E53002BE128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FEF2B2D1BFA3E52002BE128 /* BYD ACT - SAT */;
+			targetProxy = 9FEF2B531BFA3E53002BE128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FEF2B3A1BFA3E52002BE128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEF2B3B1BFA3E52002BE128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FEF2B3F1BFA3E52002BE128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEF2B401BFA3E52002BE128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FEF2B591BFA3E53002BE128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FEF2B5A1BFA3E53002BE128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FEF2B5C1BFA3E53002BE128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BYD ACT - SAT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alpal.BYD-ACT---SAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FEF2B5D1BFA3E53002BE128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BYD ACT - SAT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alpal.BYD-ACT---SAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FEF2B5F1BFA3E53002BE128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BYD ACT - SATTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alpal.BYD-ACT---SATTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYD ACT - SAT.app/BYD ACT - SAT";
+			};
+			name = Debug;
+		};
+		9FEF2B601BFA3E53002BE128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BYD ACT - SATTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alpal.BYD-ACT---SATTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYD ACT - SAT.app/BYD ACT - SAT";
+			};
+			name = Release;
+		};
+		9FEF2B621BFA3E53002BE128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BYD ACT - SATUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alpal.BYD-ACT---SATUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BYD ACT - SAT";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9FEF2B631BFA3E53002BE128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BYD ACT - SATUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alpal.BYD-ACT---SATUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BYD ACT - SAT";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FEF2B291BFA3E52002BE128 /* Build configuration list for PBXProject "BYD ACT - SAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEF2B591BFA3E53002BE128 /* Debug */,
+				9FEF2B5A1BFA3E53002BE128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEF2B5B1BFA3E53002BE128 /* Build configuration list for PBXNativeTarget "BYD ACT - SAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEF2B5C1BFA3E53002BE128 /* Debug */,
+				9FEF2B5D1BFA3E53002BE128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEF2B5E1BFA3E53002BE128 /* Build configuration list for PBXNativeTarget "BYD ACT - SATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEF2B5F1BFA3E53002BE128 /* Debug */,
+				9FEF2B601BFA3E53002BE128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEF2B611BFA3E53002BE128 /* Build configuration list for PBXNativeTarget "BYD ACT - SATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEF2B621BFA3E53002BE128 /* Debug */,
+				9FEF2B631BFA3E53002BE128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FEF2B261BFA3E52002BE128 /* Project object */;
+}
