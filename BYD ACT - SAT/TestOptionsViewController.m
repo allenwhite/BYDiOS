@@ -8,6 +8,7 @@
 
 #import "TestOptionsViewController.h"
 #import "SwipeableViewController.h"
+#import "Constants.h"
 
 @interface TestOptionsViewController ()
 
@@ -34,11 +35,23 @@
 	svc.whichTest = self.whichTest;
 
 	if ([segue.identifier isEqualToString:@"whereToGoForHelpTapped"]) {
-		
+		if ([self.whichTest isEqualToString:@"SAT"]) {
+			svc.contentStrings = [Constants SATgetWhereToGoForHelpStrings];
+		}else{
+			svc.contentStrings = [Constants ACTgetWhereToGoForHelpStrings];
+		}
 	}else if([segue.identifier isEqualToString:@"aboutTheTestTapped"]){
-
-	}else if([segue.identifier isEqualToString:@"tipeToImproveScoreTapped"]){
-
+		if ([self.whichTest isEqualToString:@"SAT"]) {
+			svc.contentStrings = [Constants SATgetAboutTheTestStrings];
+		}else{
+			svc.contentStrings = [Constants ACTgetAboutTheTestStrings];
+		}
+	}else if([segue.identifier isEqualToString:@"tipsToImproveScoreTapped"]){
+		if ([self.whichTest isEqualToString:@"SAT"]) {
+			svc.contentStrings = [Constants SATgetTipsToImproveScoreStrings];
+		}else{
+			svc.contentStrings = [Constants ACTgetTipsToImproveScoreStrings];
+		}
 	}
 }
 

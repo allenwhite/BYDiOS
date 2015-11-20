@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F63A7A21BFEF6B7001D217A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F63A7A11BFEF6B7001D217A /* Constants.m */; };
 		9FCB509E1BFEE07900D27558 /* SwipeableContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */; };
 		9FEF2B331BFA3E52002BE128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B321BFA3E52002BE128 /* main.m */; };
 		9FEF2B361BFA3E52002BE128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B351BFA3E52002BE128 /* AppDelegate.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F63A7A01BFEF6B7001D217A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9F63A7A11BFEF6B7001D217A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		9FCB509C1BFEE07900D27558 /* SwipeableContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableContentViewController.h; sourceTree = "<group>"; };
 		9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableContentViewController.m; sourceTree = "<group>"; };
 		9FEF2B2E1BFA3E52002BE128 /* BYD ACT - SAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BYD ACT - SAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F63A7A31BFEF6BE001D217A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F63A7A01BFEF6B7001D217A /* Constants.h */,
+				9F63A7A11BFEF6B7001D217A /* Constants.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		9FEF2B251BFA3E52002BE128 = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +127,10 @@
 			children = (
 				9FEF2B341BFA3E52002BE128 /* AppDelegate.h */,
 				9FEF2B351BFA3E52002BE128 /* AppDelegate.m */,
-				9FEF2B701BFA41AD002BE128 /* Controllers */,
-				9FEF2B711BFA41B7002BE128 /* Views */,
+				9F63A7A31BFEF6BE001D217A /* Models */,
 				9FEF2B421BFA3E52002BE128 /* Info.plist */,
+				9FEF2B711BFA41B7002BE128 /* Views */,
+				9FEF2B701BFA41AD002BE128 /* Controllers */,
 				9FEF2B311BFA3E52002BE128 /* Supporting Files */,
 			);
 			path = "BYD ACT - SAT";
@@ -309,6 +322,7 @@
 				9FEF2B361BFA3E52002BE128 /* AppDelegate.m in Sources */,
 				9FEF2B331BFA3E52002BE128 /* main.m in Sources */,
 				9FEF2B691BFA4158002BE128 /* WhichTestViewController.m in Sources */,
+				9F63A7A21BFEF6B7001D217A /* Constants.m in Sources */,
 				9FEF2B6C1BFA417A002BE128 /* TestOptionsViewController.m in Sources */,
 				9FCB509E1BFEE07900D27558 /* SwipeableContentViewController.m in Sources */,
 				9FEF2B661BFA4135002BE128 /* LoginViewController.m in Sources */,

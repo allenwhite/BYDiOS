@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-	self.contentStrings = @[@"Dave", @"Larry", @"Kyle", @"Bertha", @"Tanisha"];
 	
 	// Create page view controller
 	self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
@@ -51,11 +50,13 @@
 	}
 	
 	// Create a new view controller and pass suitable data.
-	SwipeableContentViewController *pageContentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SwipeableContentViewController"];
-	pageContentViewController.contentString = self.contentStrings[index];
-	pageContentViewController.pageIndex = index;
+	SwipeableContentViewController *scvc = [self.storyboard instantiateViewControllerWithIdentifier:@"SwipeableContentViewController"];
+	scvc.contentString = self.contentStrings[index];
+	NSLog(@"%@", self.contentStrings[index]);
 	
-	return pageContentViewController;
+	scvc.pageIndex = index;
+	
+	return scvc;
 }
 
 #pragma mark - Page View Controller Data Source
