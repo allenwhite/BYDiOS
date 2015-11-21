@@ -40,13 +40,14 @@ const char btag = 'b';
 
 +(NSMutableAttributedString *)setAttributes:(NSMutableAttributedString *)str rangeStart:(int)start rangeEnd:(int)end type:(char)tagType{
 	
-	
+	NSLog(@"mmm hmmm");
 	if (tagType == atag) {
 		
 	}else if (tagType == btag) { //bold
+		NSLog(@"btag");
 		NSMutableDictionary *subAttrs;
-		[subAttrs setObject:[UIFont boldSystemFontOfSize:fontSize] forKey:NSFontAttributeName];
-		NSRange range = NSMakeRange(start, end);
+		[subAttrs setObject:[UIFont systemFontOfSize:fontSize] forKey:NSFontAttributeName]; //?? why is this so small
+		const NSRange range = NSMakeRange(0, 9);
 		
 		[str setAttributes:[subAttrs copy] range:range];
 	}
@@ -58,7 +59,7 @@ const char btag = 'b';
 +(NSArray *)ACTgetWhereToGoForHelpStrings{
 
 	return @[
-		 [self setLineSpacing:@"<a href=\"http://www.beyourdreams.org\">beyourdreams.org</a> \n\n <a href=\"http://www.actstudent.org/sampletest\">ACT.org</a> \n\n <a href=\"http://www.princetonreview.com/college/act-test-prep\">Princeton Review</a> \n\n <a href=\"http://www.act.org/aap/pdf/Preparing-for-the-ACT.pdf\">Act Practice Test Booklet</a>"],
+		 [self setAttributes:[self setLineSpacing:@"<a href=\"http://www.beyourdreams.org\">beyourdreams.org</a> \n\n <a href=\"http://www.actstudent.org/sampletest\">ACT.org</a> \n\n <a href=\"http://www.princetonreview.com/college/act-test-prep\">Princeton Review</a> \n\n <a href=\"http://www.act.org/aap/pdf/Preparing-for-the-ACT.pdf\">Act Practice Test Booklet</a>"] rangeStart:0 rangeEnd:9 type:btag],
 		 
 		 [self setLineSpacing: @"Our tutors will help you understand the questions on the practice test and can provide personal assistance to help you prepare.\n\n<a href=\"http://www.beyourdreams.org\">beyourdreams.org</a>"],
 		 
