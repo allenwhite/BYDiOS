@@ -51,8 +51,8 @@
 	
 	// Create a new view controller and pass suitable data.
 	SwipeableContentViewController *scvc = [self.storyboard instantiateViewControllerWithIdentifier:@"SwipeableContentViewController"];
-	scvc.contentString = self.contentStrings[index];
-	NSLog(@"%@", self.contentStrings[index]);
+	scvc.contentString = [self.contentStrings[index] copy];
+//	NSLog(@"%@", self.contentStrings[index]);
 	
 	scvc.pageIndex = index;
 	

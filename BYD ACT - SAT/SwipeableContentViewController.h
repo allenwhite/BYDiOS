@@ -13,6 +13,6 @@
 @property (weak, nonatomic) IBOutlet UITextView *contentTextView;
 
 @property NSUInteger pageIndex;
-@property NSString *contentString;
+@property NSAttributedString *contentString;
 
 @end
