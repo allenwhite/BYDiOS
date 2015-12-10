@@ -113,17 +113,17 @@ const CGFloat a = 1;
 
 +(NSArray *)SATgetWhereToGoForHelpStrings{
 	return @[
-		 [self setLineSpacing: @"<a href=\"http://www.beyourdreams.org\">beyourdreams.org</a> \n\n <a href=\"https://www.khanacademy.org/sat\">Khan Academy</a> \n\n <a href=\"https://sat.collegeboard.org/practice/sat-practice-test\">SAT.org</a> \n\n <a href=\"http://www.princetonreview.com/college/sat-test-prep\">Princeton Review</a>" ],
+		 [self setLink:[self setLink:[self setLink: [self setLink: [self setLineSpacing: @"beyourdreams.org\n\nKhan Academy\n\nSAT.org\n\nPrinceton Review" ]  rangeStart:0 rangeEnd:16 link:@"http://www.beyourdreams.org"]  rangeStart:18 rangeEnd:12 link:@"https://www.khanacademy.org/sat"] rangeStart:32 rangeEnd:7 link:@"https://sat.collegeboard.org/practice/sat-practice-test" ] rangeStart:41 rangeEnd:16 link:@"http://www.princetonreview.com/college/sat-test-prep"],
+
+		 [self setLink:[self setLineSpacing: @"Our tutors will help you understand the questions on the practice test and can provide personal assistance to help you prepare.\n\nbeyourdreams.org" ]  rangeStart:129 rangeEnd:16 link:@"http://www.beyourdreams.org"],
 		 
-		 [self setLineSpacing: @"Our tutors will help you understand the questions on the practice test and can provide personal assistance to help you prepare.\n\n<a href=\"http://www.beyourdreams.org\">beyourdreams.org</a>" ],
+		 [self setBold: [self setLink:[self setBold:[self setLink:[self setBold:[self setLineSpacing: @"Contact Be Your Dreams for more information on our ACT prep sessions.\n\nWeb:\nbeyourdreams.org\n\nEmail: beyourdreams@ymail.com\n\nTwitter:\n@beyourdreamsllc" ] rangeStart:71 rangeEnd:4 ] rangeStart:76 rangeEnd:16 link:@"http://www.beyourdreams.org" ] rangeStart:94 rangeEnd:6 ] rangeStart:101 rangeEnd:22 link:@"mailto:beyourdreams@ymail.com" ] rangeStart:125 rangeEnd:8],
 		 
-		 [self setLineSpacing: @"Contact Be Your Dreams for more information on our ACT prep sessions.\n\n<b>Web:</b>\n<a href=\"http://www.beyourdreams.org\">beyourdreams.org</a>\n<b>Email:</b> <a href=\"mailto:beyourdreams@ymail.com\">beyourdreams@ymail.com</a>\n<b>Twitter:</b>\n@beyourdreamsllc" ],
+		 [self setLink: [self setLineSpacing: @"Khan Academy\n\nSAT Practice Tests:\n\n1)  Sign up for free account.\n\n2)  Watch video tutorials on each practice test question." ] rangeStart:0 rangeEnd:12 link:@"https://www.khanacademy.org/sat"],
 		 
-		 [self setLineSpacing: @"<a href=\"https://www.khanacademy.org/sat\">Khan Academy</a>\n\nSAT Practice Tests:\n\n1)  Sign up for free account.\n\n2)  Watch video tutorials on each practice test question." ],
+		 [self setLink:[self setLineSpacing: @"SAT.org\n\n1) Full length test\n\n2) Option for online or print test\n\n3) Option to download Study Guide\n\n4) Ability to Score the test yourself after completing test\n\n5) Same questions covered in Khan academy videos" ] rangeStart:0 rangeEnd:7 link:@"https://sat.collegeboard.org/practice/sat-practice-test" ],
 		 
-		 [self setLineSpacing: @"<a href=\"https://sat.collegeboard.org/practice/sat-practice-test\">SAT.org</a>\n\n1) Full length test\n\n2) Option for online or print test\n\n3) Option to download Study Guide\n\n4) Ability to Score the test yourself after completing test\n\n5) Same questions covered in Khan academy videos" ],
-		 
-		 [self setLineSpacing: @"<a href=\"http://www.princetonreview.com/college/sat-test-prep\">Princeton Review</a>\n\n1) Option to take self-paced test online\n\n2) Option to be tested in person at central location"]
+		 [self setLink:[self setLineSpacing: @"Princeton Review\n\n1) Option to take self-paced test online\n\n2) Option to be tested in person at central location"] rangeStart:0 rangeEnd:16 link:@"http://www.princetonreview.com/college/sat-test-prep"]
 		 
 		 ];
 }
@@ -131,16 +131,16 @@ const CGFloat a = 1;
 +(NSArray *)SATgetTipsToImproveScoreStrings{
 	return @[
 		 [self setLineSpacing: @"1) As you take the practice test, write down each question that you do not understand or have trouble with as you take the practice test." ],
-		 [self setLineSpacing: @"2) After completing the test, go to <a href=\"http://khanacademy.org/sat\">Khan Academy</a> to watch the video on those questions.\n\n3) Take notes of the explanations as you watch the video for each question." ],
+		 [self setLink: [self setLineSpacing: @"2) After completing the test, go to Khan Academy to watch the video on those questions.\n\n3) Take notes of the explanations as you watch the video for each question." ] rangeStart:36 rangeEnd:12 link:@"http://khanacademy.org/sat" ],
 		 [self setLineSpacing: @"4) Review and understand your notes for each question.\n\n5) Retake the print version of the practice test for best results." ],
-		 [self setLineSpacing: @"<a href=\"http://princetonreview.com\">Princeton Review</a>\n\nPrinceton Review provides a copy of your score report for both the online and in person practice tests.\n\nThe score report consists of each question you got correct and incorrect." ],
-		 [self setLineSpacing: @"Contact Be Your Dreams for affordable sessions that walk you through the questions you got incorrect.\n\n<b>Email:</b> <a href=\"mailto:beyourdreams@ymail.com\">beyourdreams@ymail.com</a>\n<b>Twitter:</b>\n@beyourdreamsllc"]
+		 [self setLink:[self setLineSpacing: @"Princeton Review\n\nPrinceton Review provides a copy of your score report for both the online and in person practice tests.\n\nThe score report consists of each question you got correct and incorrect." ] rangeStart:0 rangeEnd:16 link:@"http://princetonreview.com"],
+		 [self setBold:[self setLink:[self setBold:[self setLineSpacing: @"Contact Be Your Dreams for affordable sessions that walk you through the questions you got incorrect.\n\nEmail:\nbeyourdreams@ymail.com\n\nTwitter:\n@beyourdreamsllc"] rangeStart:102 rangeEnd:6] rangeStart:110 rangeEnd:22 link:@"mailto:beyourdreams@ymail.com" ] rangeStart:133 rangeEnd:8 ]
 		 ];
 }
 
 +(NSArray *)SATgetAboutTheTestStrings{
 	return @[
-		 [self setLineSpacing: @"<b>SAT</b>\n\nCurrently the SAT test consists of three sections:\n\nMath\nCritical Reading\nWriting" ],
+		 [self setBold:[self setLineSpacing: @"SAT\n\nCurrently the SAT test consists of three sections:\n\nMath\nCritical Reading\nWriting" ] rangeStart:0 rangeEnd:3 ],
 		 [self setLineSpacing: @"Math is made up of three separate sections equal to 70 minutes in time.\n\nIt ranges from a score of 200 to 800.\n\nThe average Math score is 513." ],
 		 [self setLineSpacing: @"Critical Reading is made up of three separate sections equal to 45 minutes in time.\n\nIt ranges from a score of 200 to 800.\n\nThe average Critical Reading score is 497." ],
 		 [self setLineSpacing: @"Writing skills is made up of one essay equal to 25 minutes in time; two grammar sections equal to 35 minutes, and an experimental section equal to 25 minutes." ],
@@ -151,7 +151,7 @@ const CGFloat a = 1;
 		 [self setLineSpacing: @"The Math consists of one 55 minute section with a calculator and one 20 minute section with no calculator.\n\nIt ranges from a score of 200 to 800." ],
 		 [self setLineSpacing: @"The Evidence-Based Reading and Writing portion will consist of one 65 minute reading section, one 35 minute Writing and Language section, and one Optional 50 minute essay.\n\nIt ranges from a score of 200 to 800." ],
 		 [self setLineSpacing: @"The highest possible score for the Redesigned SAT is a 1600.\n\nThe total time for the Redesigned SAT with the essay is 3 hours and 50 minutes.\n\nThe total time for the Redesigned SAT without the essay is 3 hours." ],
-		 [self setLineSpacing: @"For more information about what the SAT test consists of visit:\n\n<a href=\"https://www.testmasters.net/SatAbout\">Test Masters</a>\nAnd\n<a href=\"http://www.princetonreview.com/college/sat-information\">Princeton Review</a>"]
+		 [self setLink:[self setLink:[self setLineSpacing: @"For more information about what the SAT test consists of visit:\n\nTest Masters\n\nAnd\n\nPrinceton Review"] rangeStart:65 rangeEnd:12 link:@"https://www.testmasters.net/SatAbout" ] rangeStart:84 rangeEnd:16 link:@"http://www.princetonreview.com/college/sat-information"]
 		 ];
 }
 
