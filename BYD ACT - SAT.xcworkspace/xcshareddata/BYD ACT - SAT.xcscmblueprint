@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5E645AF029A5FCA82258B74194136440D551B53A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5E645AF029A5FCA82258B74194136440D551B53A" : 0,
+    "B22FD529F487AA29FE24CBDCDAC262696D334A7F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "44440B9F-C965-4246-8E63-835D7CD93E55",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5E645AF029A5FCA82258B74194136440D551B53A" : "BYD%20ACT%20-%20SAT\/",
+    "B22FD529F487AA29FE24CBDCDAC262696D334A7F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BYD ACT - SAT",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BYD ACT - SAT.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenwhite\/BYDiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E645AF029A5FCA82258B74194136440D551B53A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenwhite\/SRM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B22FD529F487AA29FE24CBDCDAC262696D334A7F"
+    }
+  ]
+}
