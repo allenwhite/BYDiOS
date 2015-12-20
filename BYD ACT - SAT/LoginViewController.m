@@ -35,7 +35,9 @@ NSString * const SEGUE_ID = @"loginTapped"; // const pointer
     // Do any additional setup after loading the view.
 	self.navigationItem.title = @"Check in";
 	if ([[NSUserDefaults standardUserDefaults] boolForKey:LOGIN_BOOL]) {
-		[self performSegueWithIdentifier:SEGUE_ID sender:nil];
+		if ([self shouldPerformSegueWithIdentifier:SEGUE_ID sender:self]) {
+			[self performSegueWithIdentifier:SEGUE_ID sender:self];
+		}
 	}
 }
 
@@ -50,6 +52,10 @@ NSString * const SEGUE_ID = @"loginTapped"; // const pointer
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
 	if ([identifier isEqualToString:SEGUE_ID]) {
+		
+		if ([[NSUserDefaults standardUserDefaults] boolForKey:LOGIN_BOOL])
+			return YES;
+
 		NSString *name			= [self.nameTextField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
 		NSString *age			= [[[self.ageTextField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]] componentsSeparatedByCharactersInSet:[[NSCharacterSet decimalDigitCharacterSet] invertedSet]] componentsJoinedByString:@""];
 		NSString *grade			= [[[self.gradeTextField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]] componentsSeparatedByCharactersInSet:[[NSCharacterSet decimalDigitCharacterSet] invertedSet]] componentsJoinedByString:@""];

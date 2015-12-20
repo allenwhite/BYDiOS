@@ -8,6 +8,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -207,9 +208,8 @@
                         <outlet property="twitterOrIGTextField" destination="fW3-gE-lN4" id="4yB-Yi-Twm"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="408" y="400"/>
+            <point key="canvasLocation" x="398" y="400"/>
         </scene>
         <!--Which Test View Controller-->
         <scene sceneID="ra3-76-lYv">

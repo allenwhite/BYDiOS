@@ -21,9 +21,13 @@ NSString *act = @"ACT";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+	[super viewDidAppear:animated];
 	[self.navigationItem setHidesBackButton:YES animated:YES];
 	self.navigationItem.title = @"Choose a test";
-
+	
 }
 
 - (void)didReceiveMemoryWarning {
