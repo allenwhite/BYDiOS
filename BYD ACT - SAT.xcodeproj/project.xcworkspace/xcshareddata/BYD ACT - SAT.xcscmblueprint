@@ -4,11 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "72EABBECE426DE6493EBCF5BF62FEFBBE355A35F" : 0,
     "5E645AF029A5FCA82258B74194136440D551B53A" : 0,
     "B22FD529F487AA29FE24CBDCDAC262696D334A7F" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "732B6677-85E5-483A-B530-B503C9D36749",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "72EABBECE426DE6493EBCF5BF62FEFBBE355A35F" : "Crime%20Nut\/",
     "5E645AF029A5FCA82258B74194136440D551B53A" : "BYD%20ACT%20-%20SAT\/",
     "B22FD529F487AA29FE24CBDCDAC262696D334A7F" : ""
   },
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenwhite\/BYDiOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E645AF029A5FCA82258B74194136440D551B53A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/buckmaxwell\/crimenut-iphone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72EABBECE426DE6493EBCF5BF62FEFBBE355A35F"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/allenwhite\/SRM.git",

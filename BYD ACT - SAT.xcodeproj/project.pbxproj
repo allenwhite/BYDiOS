@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9F63A7A21BFEF6B7001D217A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F63A7A11BFEF6B7001D217A /* Constants.m */; };
+		9FB4A7401C2735EE00A932AA /* UImodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4A73F1C2735EE00A932AA /* UImodel.m */; };
+		9FB4A74F1C27445B00A932AA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4A74E1C27445B00A932AA /* TPKeyboardAvoidingScrollView.m */; };
+		9FB4A7521C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4A7511C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		9FCB509E1BFEE07900D27558 /* SwipeableContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */; };
 		9FEF2B331BFA3E52002BE128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B321BFA3E52002BE128 /* main.m */; };
 		9FEF2B361BFA3E52002BE128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2B351BFA3E52002BE128 /* AppDelegate.m */; };
@@ -42,6 +45,12 @@
 /* Begin PBXFileReference section */
 		9F63A7A01BFEF6B7001D217A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		9F63A7A11BFEF6B7001D217A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		9FB4A73E1C2735EE00A932AA /* UImodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UImodel.h; sourceTree = "<group>"; };
+		9FB4A73F1C2735EE00A932AA /* UImodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UImodel.m; sourceTree = "<group>"; };
+		9FB4A74D1C27445B00A932AA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = ../TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		9FB4A74E1C27445B00A932AA /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = ../TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		9FB4A7501C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		9FB4A7511C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		9FCB509C1BFEE07900D27558 /* SwipeableContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableContentViewController.h; sourceTree = "<group>"; };
 		9FCB509D1BFEE07900D27558 /* SwipeableContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableContentViewController.m; sourceTree = "<group>"; };
 		9FEF2B2E1BFA3E52002BE128 /* BYD ACT - SAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BYD ACT - SAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +107,12 @@
 			children = (
 				9F63A7A01BFEF6B7001D217A /* Constants.h */,
 				9F63A7A11BFEF6B7001D217A /* Constants.m */,
+				9FB4A73E1C2735EE00A932AA /* UImodel.h */,
+				9FB4A73F1C2735EE00A932AA /* UImodel.m */,
+				9FB4A74D1C27445B00A932AA /* TPKeyboardAvoidingScrollView.h */,
+				9FB4A74E1C27445B00A932AA /* TPKeyboardAvoidingScrollView.m */,
+				9FB4A7501C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				9FB4A7511C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -320,8 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEF2B361BFA3E52002BE128 /* AppDelegate.m in Sources */,
+				9FB4A74F1C27445B00A932AA /* TPKeyboardAvoidingScrollView.m in Sources */,
 				9FEF2B331BFA3E52002BE128 /* main.m in Sources */,
+				9FB4A7401C2735EE00A932AA /* UImodel.m in Sources */,
 				9FEF2B691BFA4158002BE128 /* WhichTestViewController.m in Sources */,
+				9FB4A7521C2744D500A932AA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				9F63A7A21BFEF6B7001D217A /* Constants.m in Sources */,
 				9FEF2B6C1BFA417A002BE128 /* TestOptionsViewController.m in Sources */,
 				9FCB509E1BFEE07900D27558 /* SwipeableContentViewController.m in Sources */,
