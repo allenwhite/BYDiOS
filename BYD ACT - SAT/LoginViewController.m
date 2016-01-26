@@ -74,17 +74,11 @@ NSString * const SEGUE_ID = @"loginTapped"; // const pointer
 		if ([name isEqualToString:@""]) {
 			[UImodel showAlert:@"Whoops!" withMessage:@"Please fill out your name"];
 			return NO;
-		}else if ([age isEqualToString:@""]) {
-			[UImodel showAlert:@"Whoops!" withMessage:@"Please fill out your age"];
-			return NO;
 		}else if ([grade isEqualToString:@""]) {
 			[UImodel showAlert:@"Whoops!" withMessage:@"Please fill out your grade"];
 			return NO;
 		}else if ([schoolName isEqualToString:@""]) {
 			[UImodel showAlert:@"Whoops!" withMessage:@"Please fill out the name of your school"];
-			return NO;
-		}else if ([email isEqualToString:@""]) {
-			[UImodel showAlert:@"Whoops!" withMessage:@"Please fill out your email"];
 			return NO;
 		}
 		

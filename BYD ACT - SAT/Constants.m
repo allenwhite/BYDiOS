@@ -63,7 +63,7 @@ const CGFloat a = 1;
 +(NSArray *)ACTgetWhereToGoForHelpStrings{
 
 	return @[
-		 [self setLink: [self setLink: [self setLink:[self setLink:[self setLineSpacing:@"beyourdreams.org\n\nACT.org\n\nPrinceton Review\n\nAct Practice Test Booklet"]rangeStart:0 rangeEnd:16 link:@"http://www.beyourdreams.org"] rangeStart:18 rangeEnd:7 link:@"http://act.org"]  rangeStart:27 rangeEnd:16 link:@"http://www.princetonreview.com/college/act-test-prep"] rangeStart:45 rangeEnd:25 link:@"http://www.act.org/aap/pdf/Preparing-for-the-ACT.pdf"],
+		 [self setLink: [self setLink: [self setLink:[self setLink:[self setLineSpacing:@"beyourdreams.org\n\nACT.org\n\nPrinceton Review\n\nAct Practice Test Booklet"]rangeStart:0 rangeEnd:16 link:@"http://www.beyourdreams.org"] rangeStart:18 rangeEnd:7 link:@"http://www.actstudent.org/sampletest"]  rangeStart:27 rangeEnd:16 link:@"http://www.princetonreview.com/college/act-test-prep"] rangeStart:45 rangeEnd:25 link:@"http://www.act.org/aap/pdf/Preparing-for-the-ACT.pdf"],
 	
 		 [self setLink:[self setLineSpacing: @"Our tutors will help you understand the questions on the practice test and can provide personal assistance to help you prepare.\n\nbeyourdreams.org"]  rangeStart:129 rangeEnd:16 link:@"http://www.beyourdreams.org"],
 		 
@@ -87,7 +87,8 @@ const CGFloat a = 1;
 		 [self setLineSpacing: @"6) Keep the notes you took handy for after you determine your score."],
 		 [self setBold:[self setLineSpacing: @"Scoring the Test\n\n1) Score the test by determining the number of questions you got correct."] rangeStart:0 rangeEnd:16],
 		 [self setLineSpacing: @"2) Then divide the number of questions you got correct by the total number of questions."],
-		 [self setLineSpacing: @"3) For example: I got 57 questions right. There are 75 total questions.\nSo 56 / 75 = 0.76. Then multiply that number by 36. The answer you get is your score. The score should be between 1 &amp; 36. (For example: 36 * 0.76 = 27)."],
+		 [self setLineSpacing: @"3) For example: I got 57 questions right. There are 75 total questions.\nSo 56 / 75 = 0.76. Then multiply that number by 36. The answer you get is your score. The score should be between 1 & 36. (For example: 36 * 0.76 = 27)."],
+		 [self setLineSpacing:@"4) Now retake the same test according to the required time and repeat steps."],
 		 [self setLineSpacing: @"5) If you do not reach the minimum score set by the exam administrators, thoroughly review and understand the notes you took on the incorrect answers before you retake the test timed."],
 		 [self setBold:[self setLink:[self setBold:[self setLineSpacing: @"Contact Be Your Dreams for affordable sessions that walk you through the questions you got incorrect.\n\nEmail: beyourdreams@ymail.com\nTwitter: @beyourdreamsllc"] rangeStart:103 rangeEnd:5 ] rangeStart:110 rangeEnd:22 link:@"mailto:beyourdreams@ymail.com"] rangeStart:133 rangeEnd:7]
 		 ];
